@@ -8,6 +8,7 @@ If you're feeling great and want to show your support, please consider checking 
  
 ![image](https://raw.githubusercontent.com/lusaxweb/vuesax/master/public/github-vuesax-star.gif)
 
+
     
 ## Table of Content
 - [Installation](#installation)
@@ -32,14 +33,14 @@ If you're feeling great and want to show your support, please consider checking 
 - [Contributions](#contribution)
 - [Licenses](#licenses)
 - [Questions](#questions)
-- [website link](https://adarsh-sharma783.github.io/Portfolio-React/) // Checkout the deployed website 
+- [website link](https://Adarsh-sharma06.github.io/Portfolio/) // Checkout the deployed website 
     
         
 ## Installation
 To set up and utilise this project. Take the following steps.
 
 - Step 1: Clone this repository
-- ![image](https://user-images.githubusercontent.com/104241247/209482930-7be4f3e2-c9eb-41e3-a6de-651cdf77d8a2.png)
+- ![git clone](https://github.com/Adarsh-sharma06/Portfolio/assets/73550638/a8d04fcc-2969-416a-a765-94d260e9be25)
 - Step 2: Install dependencies by running the ``` npm install ``` command in the command line
 - Step 3: Open your code editor by running the command ``` code . ```
 - step 4 : run ``` npm start ``` in the terminal.
@@ -50,7 +51,7 @@ A responsive, single page application for developers to showcase their skills
 
 ## Customize Portfolio
 - ### Colors:
-  To customize the colors to the colors you want, CSS variables are used in the [index.css file](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/index.css). There you can update the variables to set your custom colors
+  To customize the colors to the colors you want, CSS variables are used in the [index.css file](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/index.css). There you can update the variables to set your custom colors
    - ### Background Color: <br>
       To set a new background color, update the `--color-bg` CSS variable and set your custom color in rbg, hex,hsl.
      ```
@@ -82,11 +83,11 @@ A responsive, single page application for developers to showcase their skills
       
 - ### Resume:
    To add your custom images to the project, do the following
-    - Navigate to the [assets folder](https://github.com/Adarsh-Sharma783/Portfolio-React/tree/main/src/assets).
+    - Navigate to the [assets folder](https://github.com/Adarsh-sharma06/Portfolio/tree/main/src/assets).
     - rename, save your resume as `CV.pdf` and move it into the assets folder.
     
  
-    Note: If your resume is not in pdf format and you don't want to update it to PDF format, navigate to the [Call to action](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Header/CTA.jsx) component and update the import statement to use your resume file 
+    Note: If your resume is not in pdf format and you don't want to update it to PDF format, navigate to the [Call to action](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Header/CTA.jsx) component and update the import statement to use your resume file 
     ```
     import CV from '../../assets/YOUR RESUME NAME' //update this line
      ```
@@ -94,9 +95,9 @@ A responsive, single page application for developers to showcase their skills
      and you should be good to go on your resume.
      
 - ### Social links: 
-     In terms of Social media links, I used the `Linkedin`, `Github` and `Codewars` links in the [Header section](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Header/HeaderSocials.jsx).
+     In terms of Social media links, I used the `Linkedin`, `Github` and `Codewars` links in the [Header section](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Header/HeaderSocials.jsx).
      If you want to use your own `Linkedin`, `Github` and `Codewars` links, 
-     1. navigate to the [Header socials component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Header/HeaderSocials.jsx). 
+     1. navigate to the [Header socials component](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Header/HeaderSocials.jsx). 
      2. update the href attributes for the three links <br><br>
       
      
@@ -117,19 +118,19 @@ A responsive, single page application for developers to showcase their skills
   with that, you can add and remove social media links and icons.
   
   - ### About me:
-    To customize the about me section, Navigate to the [about component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/About/About.jsx)
+    To customize the about me section, Navigate to the [about component](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/About/About.jsx)
     and then customize the `experience`, `collaborators` and `paragraph` as you see fit.
     
  - ### Experience: 
-   To Add your experience and tech stack to the experience section, Navigate to the [Experience Component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Experience/Experience.jsx) and update jsx how you see fit.
+   To Add your experience and tech stack to the experience section, Navigate to the [Experience Component](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Experience/Experience.jsx) and update jsx how you see fit.
    
  - ### Services:
-  To update the services, navigate to the [Services Component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Services/Services.jsx)
+  To update the services, navigate to the [Services Component](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Services/Services.jsx)
   and update your services as you see fit.
   
  - ### Portfolio:
-  To update the portfolio section to accomodate your own projects. First, navigate to the [Portoflio component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Portfolio/Portfolio.jsx) and then follow these steps; 
-   1. Import all Images of your projects to the [assets Folder](https://github.com/Adarsh-Sharma783/Portfolio-React/tree/main/src/assets)
+  To update the portfolio section to accomodate your own projects. First, navigate to the [Portoflio component](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Portfolio/Portfolio.jsx) and then follow these steps; 
+   1. Import all Images of your projects to the [assets Folder](https://github.com/Adarsh-sharma06/Portfolio/tree/main/src/assets)
    2. update the projects array to look like the following;
    
      const projects = [ 
@@ -146,9 +147,9 @@ A responsive, single page application for developers to showcase their skills
   After making these changes, your project should be rendered on the page just as usual.
       
  - ### Reviews
-  To update the reviews section, Navigate to the [Reviews Component](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/src/components/Review/Review.jsx).
+  To update the reviews section, Navigate to the [Reviews Component](https://github.com/Adarsh-sharma06/Portfolio/blob/main/src/components/Review/Review.jsx).
   In the reviews component, update the `reviewsData` array to fit your reviews. To customize the reviewsData array, follows these steps
-   1. upload the images for each reviewer and move them to your [assets folder](https://github.com/Adarsh-Sharma783/Portfolio-React/tree/main/src/assets).
+   1. upload the images for each reviewer and move them to your [assets folder](https://github.com/Adarsh-sharma06/Portfolio/tree/main/src/assets).
    2. Once you've uploaded your images to the assets folder, import those images into the reviewData array;
       
     const reviewData = [
@@ -179,7 +180,7 @@ A responsive, single page application for developers to showcase their skills
  
  After customizing the website, you can deploy it to github pages for free by following these steps;<br>
  
-   - Navigate to the [package.json file](https://github.com/Adarsh-Sharma783/Portfolio-React/blob/main/package.json)
+   - Navigate to the [package.json file](https://github.com/Adarsh-sharma06/Portfolio/blob/main/package.json)
    - Update the `homepage` in the package.json file
     ```
      {
@@ -207,7 +208,7 @@ A responsive, single page application for developers to showcase their skills
 
 
 ## Screenshot
-check it live: https://adarsh-sharma783.github.io/Portfolio-React/
+check it live: https://Adarsh-sharma06.github.io/Portfolio/
 
 
 
@@ -220,4 +221,4 @@ check it live: https://adarsh-sharma783.github.io/Portfolio-React/
 Made with ❤️ by Adarsh
 
 ## questions
-Feel free to reach out via email on [devduttadarsh6@gmail.com](mailto:devduttadarsh6@gmail.com) or [view some other projects](https://github.com/Adarsh-Sharma783).
+Feel free to reach out via email on [devduttadarsh6@gmail.com](mailto:devduttadarsh6@gmail.com) or [view some other projects](https://github.com/Adarsh-sharma06).
